@@ -68,18 +68,16 @@ const Home = () => {
 
     return (
         <div className="container">
-        <div style={{ display: 'flex', gap:'20px', justifyContent: 'center', marginBottom: '20px' }}>
-                <Link to={'/'} style={{ textDecoration:"none",  color: 'black',  textTransform:"capitalize",fontSize:'20px' }}>All Items</Link>
+        <div style={{ display: 'flex', marginTop:'10px',  color: 'rgb(2, 2, 179)', gap:'20px', justifyContent: 'center', marginBottom: '20px' }}>
+                <Link to={'/'} style={{ textDecoration:"none",   textTransform:"capitalize",fontSize:'20px' }}>All Items</Link>
                 <button 
                onClick={handleUserItems}
                 style={{ 
                     textDecoration: "none", 
                     textTransform: "capitalize", 
                     fontSize: '20px', 
-                   
                     cursor: 'pointer',
-                    backgroundColor: 'transparent', 
-                    color: 'black', 
+                    backgroundColor: 'transparent',
                     border: 'none', 
                  
                 }}>
